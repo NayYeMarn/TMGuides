@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="top|center"
+	android:layout_gravity="center_vertical"
+	android:orientation="vertical"
+	android:background="@drawable/image_2">
+
+	<ImageView
+		android:layout_width="80dp"
+		android:layout_height="80dp"
+		android:text="Text"
+		android:layout_marginTop="10dp"
+		android:background="@drawable/image_1"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Termux Guide"
+		android:layout_marginTop="20dp"
+		android:textSize="20sp"
+		android:textColor="#FF0F00"
+		android:shadowColor="#FFFFFF"
+		android:shadowDx="-3"
+		android:shadowDy="3"/>
+
+	<Button
+		android:layout_width="500dp"
+		android:layout_height="50dp"
+		android:text="Command Guide"
+		android:layout_marginTop="120dp"
+		android:rotation="-35"
+		android:background="@drawable/image_3"
+		android:textColor="#FFFFFF"
+		android:shadowColor="#000CFF"
+		android:shadowRadius="3"
+		android:id="@+id/b1"/>
+
+	<Button
+		android:layout_width="500dp"
+		android:layout_height="50dp"
+		android:text="Help!"
+		android:layout_marginTop="100dp"
+		android:rotation="-35"
+		android:background="@drawable/image_3"
+		android:textColor="#FFFFFF"
+		android:shadowColor="#001EFF"
+		android:shadowRadius="3"
+		android:onClick="myFacebook"/>
+
+</LinearLayout>
